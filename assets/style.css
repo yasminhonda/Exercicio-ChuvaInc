@@ -1,6 +1,7 @@
 :root {
     --gray-1: #725C5C;
     --border-gray: #E7E7E7;
+    --orange-background: #FDF1EB;
 }
 
 * {
@@ -23,7 +24,7 @@ body {
 
 .sidebar {
     height: 100%;
-    width: 17%;
+    width: 16%;
     position: fixed;
     background-color: #FFFFFF;
     border-right: 1px;
@@ -53,6 +54,17 @@ body {
     border-bottom: 2px solid var(--border-gray);
 }
 
+.sidebar ul li:hover, .active {
+    background-color: var(--orange-background);
+    cursor: pointer;
+}
+
+.active {
+        border-left: 5px solid;
+        border-image: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+        border-image-slice: 1;
+}
+
 .sidebar ul li a {
     color: var(--gray-1);
     font-family: 'Quicksand', sans-serif;
@@ -62,5 +74,65 @@ body {
 
 main {
     font-size: 3rem;
+    margin-left: 16%;
 }
 
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--orange-background);
+    padding: 0.4rem 2.9rem 0.4rem 3.6rem;
+}
+
+.headerTxt{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--gray-1);
+}
+
+.headerTxt p{
+    font-size: 1.4rem;
+}
+
+.lang {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding: 0.8rem 0.9rem;
+    margin-left: 7rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 0.3rem;
+}
+
+.login {
+    display: flex;
+}
+
+.login div {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    text-align: right;
+}
+
+.login div p:first-child {
+    font-size: 1.4rem;
+}
+
+.login div p:last-child {
+    font-size: 1.2rem;
+}
+
+.login img:first-child {
+    margin-left: 0.5rem;
+}
+
+.login img:last-child {
+    position: absolute;
+    right: 2.7rem;
+}
