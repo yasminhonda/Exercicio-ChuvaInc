@@ -11,3 +11,14 @@ function verMais() {
     }
 
 }
+
+function maisRespostas() {
+    let comentarios = document.querySelector('#assuntosComentados')
+
+    if (comentarios.style.display == "none"){
+        comentarios.style.display = 'inline';
+    } else {
+        comentarios.style.display = 'none';
+    }
+
+}
