@@ -315,7 +315,7 @@ main .mainContainer {
     padding: 1rem 1.5rem;
 }
 
-.resumo div {
+.resumo .resumoContent {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
@@ -339,6 +339,7 @@ main .mainContainer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem;
 }
 
 .discussoes .suaIdeia p:first-child {
@@ -346,6 +347,7 @@ main .mainContainer {
     font-weight: 700;
     font-size: 1.8rem;
     color: var(--orange-solid);
+    padding-bottom: 2rem;
 }
 
 .discussoes .suaIdeia p:last-child {
@@ -354,7 +356,8 @@ main .mainContainer {
     font-size: 1.4rem;
     color: #595959;
     width: 70%;
-    margin-bottom: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .criarTopico {
@@ -371,3 +374,54 @@ main .mainContainer {
     font-weight: 700;
     font-size: 1.5rem;
 }
+
+.comentarios {
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 0.4rem;
+    margin: 1.7rem 1.5rem;
+    padding: 1.5rem;
+    cursor: default;
+}
+
+.comentarios p:first-child {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--orange-solid);
+}
+
+.comentarios p:nth-child(2) {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--black-text);
+    padding-bottom: 1rem;
+}
+
+.comentarios p:nth-child(3) {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #4D4D4D;
+}
+
+.cardFooter {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.cardFooter i {
+    color: var(--orange-solid);
+    padding-right: 1.5rem;
+}
+
+.cardFooter img {
+    display: block;
+    padding-right: 1.5rem;
+}
+
+.cardFooter p {
+    padding-right: 1.5rem;
+}
+
