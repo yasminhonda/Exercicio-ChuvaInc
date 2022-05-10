@@ -3,6 +3,8 @@
     --border-gray: #E7E7E7;
     --orange-background: #FDF1EB;
     --orange-solid: #ED7839;
+    --black-title: #4E4E4E;
+    --black-text: #5C5C5C;
 }
 
 * {
@@ -183,6 +185,7 @@ main .mainContainer {
     font-weight: 900;
     font-size: 2.2rem;
     color: var(--orange-solid);
+    padding-bottom: 1.9rem;
 }
 
 .container {
@@ -222,4 +225,80 @@ main .mainContainer {
     color: var(--orange-solid);
     margin-left: 0.5rem;
     padding-top: 1.2rem;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video {
+    background-color: #333333;
+    width: 80rem;
+    height: 45rem;
+}
+
+/*.containerDespesa__lista {
+    overflow-y: scroll;
+    max-height: 10rem;
+}*/
+
+.details {
+    width: 24.2rem;
+    height: 45rem;
+    border: 1px solid #ECECEC;
+    border-radius: 0.3rem;
+    color: var(--black-text);
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.details h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: var(--orange-background);
+    padding: 1.1rem 1.5rem 0.9rem 1.5rem;
+    color: var(--black-title);
+}
+
+.detailsTxt {
+    overflow-y: scroll;
+    max-height: 38rem;
+    line-height: 1.6rem;
+    margin: 1.5rem 0.5rem;
+    padding: 0rem 1rem 1.5rem 1.5rem;
+}
+
+.detailsTxt p:first-child {
+    padding-bottom: 2rem;
+}
+
+.detailsTxt p:nth-child(2) {
+    padding-bottom: 4rem;
+    line-height: 2rem;
+}
+
+.detailsTxt p:nth-child(3) {
+    color: rgb(182, 182, 182);
+    padding-bottom: 1rem;
+}
+
+.detailsTxt::-webkit-scrollbar-track
+{
+	border-radius: 0.5rem;
+	background-color: #F5F5F5;
+}
+
+.detailsTxt::-webkit-scrollbar
+{
+	width: 0.3rem;
+	background-color: #E7E7E7;
+}
+
+.detailsTxt::-webkit-scrollbar-thumb
+{
+	border-radius: 0.5rem;
+	background-color: #BFBFBF;
 }
