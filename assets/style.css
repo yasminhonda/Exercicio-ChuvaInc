@@ -238,11 +238,6 @@ main .mainContainer {
     height: 45rem;
 }
 
-/*.containerDespesa__lista {
-    overflow-y: scroll;
-    max-height: 10rem;
-}*/
-
 .details {
     width: 24.2rem;
     height: 45rem;
@@ -332,4 +327,47 @@ main .mainContainer {
 
 #verMais {
     display: none;
+}
+
+.discussoes, .resumo:last-child h3 {
+    cursor: default;
+}
+
+.discussoes .suaIdeia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discussoes .suaIdeia p:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--orange-solid);
+}
+
+.discussoes .suaIdeia p:last-child {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #595959;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.criarTopico {
+    position: relative;
+    left: 45%;
+    bottom: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.7rem 1.3rem 0.9rem 1.3rem;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
