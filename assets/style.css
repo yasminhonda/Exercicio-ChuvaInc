@@ -265,6 +265,7 @@ main .mainContainer {
 
 .detailsTxt {
     overflow-y: scroll;
+    cursor: pointer;
     max-height: 38rem;
     line-height: 1.6rem;
     margin: 1.5rem 0.5rem;
@@ -301,4 +302,34 @@ main .mainContainer {
 {
 	border-radius: 0.5rem;
 	background-color: #BFBFBF;
+}
+
+.resumo {
+    margin-top: 3rem;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.resumo h3 {
+    background-color: var(--orange-background);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--black-title);
+    padding: 1rem 1.5rem;
+}
+
+.resumo div {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--black-text);
+    padding: 1.5rem;
+    line-height: 2.3rem;
+    text-align: justify;
+}
+
+#verMais {
+    display: none;
 }
