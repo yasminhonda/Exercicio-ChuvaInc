@@ -433,7 +433,7 @@ main .mainContainer {
     padding: 1.5rem;
 }
 
-.assuntosComentados div {
+.assuntosComentados div, .assuntosComentados1 div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -459,14 +459,19 @@ main .mainContainer {
     padding-right: 3.5rem;
 }
 
-.assuntosComentados .resposta {
+.resposta {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
 }
 
-#assuntosComentados {
+#assuntosComentados, #txt {
     display: none;
+}
+
+.assuntosComentados1 {
+    border: 1px solid #E7E7E7;
+    padding: 1.5rem;
 }
 
 

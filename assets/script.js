@@ -13,12 +13,24 @@ function verMais() {
 }
 
 function maisRespostas() {
+    let dots = document.querySelector('#dots')
+    let txt = document.querySelector('#txt')
+    let likes = document.querySelector('#like')
+    let resposta = document.querySelector('#respostas')
     let comentarios = document.querySelector('#assuntosComentados')
 
-    if (comentarios.style.display == "none"){
-        comentarios.style.display = 'inline';
-    } else {
+    if (dots.style.display === "none"){
+        dots.style.display = 'inline';
         comentarios.style.display = 'none';
+        txt.style.display = 'none';
+        likes.innerHTML = '1 like';
+        resposta.innerHTML = '1 resposta'
+    } else {
+        dots.style.display = 'none';
+        comentarios.style.display = 'inline';
+        txt.style.display = 'inline';
+        likes.innerHTML = '4 likes';
+        resposta.innerHTML = '4 respostas'
     }
 
 }
