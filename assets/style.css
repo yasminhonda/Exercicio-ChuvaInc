@@ -183,6 +183,7 @@ main .mainContainer {
     font-weight: 900;
     font-size: 2.2rem;
     color: var(--orange-solid);
+    padding-bottom: 1.9rem;
 }
 
 .container {
@@ -222,4 +223,14 @@ main .mainContainer {
     color: var(--orange-solid);
     margin-left: 0.5rem;
     padding-top: 1.2rem;
+}
+
+
+.video video {
+    width: 80rem;
+    cursor: pointer;
+}
+
+.video video {
+    object-fit: cover;
 }
