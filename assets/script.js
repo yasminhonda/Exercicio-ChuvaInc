@@ -25,6 +25,17 @@ function criarTopico() {
     parentDiv.replaceChild(div, discussoes)
 }
 
+function enviar() {
+    let div = document.querySelector('.addTopico')
+    let div2 = document.createElement('div')
+    div2.setAttribute('class', 'topicoEnviado')
+
+    div2.innerHTML = '<p class="p1">Seu tópico foi enviado com sucesso! :D</p><p class="p2">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p><p class="p3"><a href="#">Descubra outros trabalhos!</a></p><hr><button class="btnCriarNovoTopico">criar novo tópico</button><div class="aguardandoFeedback"><img src="./assets/imgs/simbol-black.png"><p class="p4">Aguardando feedback dos autores</p><p class="p5"><a href="#">Editar tópico</p></p></div>'
+
+    let parentDiv2 = div.parentNode
+    parentDiv2.replaceChild(div2, div)
+}
+
 function maisRespostas() {
     let dots = document.querySelector('#dots')
     let txt = document.querySelector('#txt')
