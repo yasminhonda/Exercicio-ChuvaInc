@@ -173,6 +173,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 2rem 4rem 2rem 25rem;
+    margin-bottom: 3rem;
 }
 
 main .mainContainer {
@@ -513,7 +514,7 @@ main .mainContainer {
 }
 
 .aguardandoFeedback {
-    background-image: url("./imgs/Rectangle3.1.png");
+    background-image: url("./imgs/backgroundFeedback.png");
     margin: 1.5rem;
     height: 14.8rem;
     border: 1px solid #E7E7E7;
@@ -643,5 +644,37 @@ main .mainContainer {
 }
 
 footer {
-    margin-left: 25rem;
+    display: flex;
+    margin: 2rem 0 1rem 25rem;
+    border-top: 1px solid #E7E7E7;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.galoa {
+    display: flex;
+    flex-direction: column;
+}
+
+.galoa img {
+    width: 100%;
+}
+
+.galoa button {
+    font-family: 'Quicksand',sans-serif;
+    width: 100%;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.7rem;
+    color: #FFFFFF;
+    background-color: #71478E;
+    cursor: pointer;
+}
+
+.galoaTxt {
+    margin-left: 4rem;
+    margin-right: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: var(--black-text);
 }
