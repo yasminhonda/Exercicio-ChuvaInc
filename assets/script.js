@@ -65,11 +65,28 @@ function maisRespostas() {
 
 function videoLegends() {
     let video = document.querySelector('video')
-    let p = document.querySelector('.video p')
-    if (video.paused == 'true') {
+    let p = document.querySelector('.video .videoP1')
+    let name = document.querySelector('.video .videoName')
+    let p2 = document.querySelector('.video .videoP2')
+    let img = document.querySelector('.video img')
+
+    video.addEventListener('pause', function () {
         p.style.display = 'inline'
-        p.innerHTML = 'oi'
-    }
+        p.innerHTML = 'Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP'
+        name.style.display = 'inline'
+        name.innerHTML = 'Beatriz Christiane Melo'
+        p2.style.display = 'inline'
+        p2.innerHTML = 'FCA / Universidade Estadual de Campinas'
+        img.style.display = 'inline'
+      });
+
+    video.addEventListener('play', function () {
+        p.style.display = "none"
+        name.style.display = 'none'
+        p2.style.display = 'none'
+        img.style.display = 'none'
+    });
+
 }
 
 videoLegends()
