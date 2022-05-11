@@ -26,6 +26,14 @@ body {
     flex-direction: column;
 }
 
+.btnNavClose {
+    display: none;
+}
+
+.btnNavOpen {
+    display: none;
+}
+
 .sidebar {
     height: 100%;
     width: 16%;
@@ -90,7 +98,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
-    padding-left: 21rem;
+    padding-left: 17%;
     color: var(--gray-1);
 }
 
@@ -172,8 +180,9 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    padding: 2rem 4rem 2rem 25rem;
+    padding: 2rem 4rem;
     margin-bottom: 3rem;
+    margin-left: 16%;
 }
 
 main .mainContainer {
@@ -231,10 +240,11 @@ main .mainContainer {
 .videoContainer {
     display: flex;
     justify-content: space-between;
+    height: 44rem;
 }
 
 .video video {
-    width: 80rem;
+    width: 77rem;
     cursor: pointer;
 }
 
@@ -250,18 +260,17 @@ main .mainContainer {
 }
 
 .videoLegend {
-    display: flex;
     position: relative;
     bottom: 17rem;
     left: 3rem;
 }
 
 .videoLegend .videoName {
-    position: absolute;
     bottom: 4.5rem;
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 3.4rem;
+    left: 7rem;
 }
 
 .videoLegend p {
@@ -269,11 +278,12 @@ main .mainContainer {
     font-weight: 900;
     font-size: 2.0rem;
     bottom: 1.5rem;
+    left: 7rem;
 }
 
 .details {
     width: 24.2rem;
-    height: 45rem;
+    height: 43.5rem;
     border: 1px solid #ECECEC;
     border-radius: 0.3rem;
     color: var(--black-text);
@@ -294,7 +304,7 @@ main .mainContainer {
 .detailsTxt {
     overflow-y: scroll;
     cursor: pointer;
-    max-height: 38rem;
+    max-height: 37rem;
     line-height: 1.6rem;
     margin: 1.5rem 0.5rem;
     padding: 0rem 1rem 1.5rem 1.5rem;

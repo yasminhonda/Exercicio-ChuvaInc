@@ -63,7 +63,7 @@ function maisRespostas() {
 
 }
 
-function videoLegends() {
+(function videoLegends() {
     let video = document.querySelector('video')
     let p = document.querySelector('.video .videoP1')
     let name = document.querySelector('.video .videoName')
@@ -87,7 +87,21 @@ function videoLegends() {
         img.style.display = 'none'
     });
 
-}
+})();
 
-videoLegends()
+(function open() {
+    let sidebar = document.querySelector(".sidebar")
+    let btn = document.querySelector('.btnNavOpen')
+    btn.addEventListener('click', function() {
+        sidebar.style.display = 'block'
+    })
+  })();
 
+  
+  (function close() {
+    let sidebar = document.querySelector(".sidebar")
+    let btn = document.querySelector('.btnNavClose')
+    btn.addEventListener('click', function() {
+        sidebar.style.display = 'none'
+    })
+  })();

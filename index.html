@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SLACA</title>
 
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="sidebar">
+    <nav id="sidebar" class="sidebar">
+        <button class="btnNavClose"><span>&#10005;</span> close</button>
         <ul>
             <h1>SLACA 2019</h1>
             <img src="./assets/imgs/logo.png" alt="Logo da 13 Slaca, uma imagem de laranja metade dela sendo o mapa mundi e a outra geométrica.">
@@ -31,6 +33,7 @@
     </nav>
 
     <header>
+        <button class="btnNavOpen">≡</button>
         <div class="headerTxt">
                 <p>Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
                 <h2>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
@@ -51,7 +54,7 @@
                 </div>
                 <div>
                     <img src="./assets/imgs/foto-de-perfil.png">
-                    <img src="./assets/imgs/notification-badge.png">
+                    <img class="imgNotif" src="./assets/imgs/notification-badge.png">
                 </div>
         </div>
     </header>

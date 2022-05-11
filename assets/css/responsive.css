@@ -1,0 +1,405 @@
+
+@media (max-width: 1345px) {
+    .langDropdown {
+        padding-left: 0;
+    }
+
+    .container p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 1325px) {
+    .container div button {
+        font-size: 1.5rem;
+    }
+
+    .videoContainer {
+        height: 39.5rem;
+    }
+
+    .video video {
+        width: 70rem;
+    }
+
+    .video p {
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    .videoLegend .videoName {
+        font-size: 3rem;
+    }
+
+    .videoLegend p {
+        font-size: 1.5rem;
+    }
+
+    .details {
+        height: 39.5rem;
+    }
+
+    .detailsTxt {
+        max-height: 32.5rem;
+    }
+}
+
+@media (max-width: 1331px) {
+    .sidebar h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 1296px) {
+    .container div button {
+        font-size: 1.4rem;
+    }
+
+    .container p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1264px) {
+    .sidebar {
+        display: none;
+        z-index: 2;
+        width: 18%;
+        background-color: #ffffffcc;
+        backdrop-filter: blur(5px);
+    }
+
+    .btnNavClose {
+        display: inline;
+        width: 100%;
+        height: 4.5rem;
+        background:#ed783963;
+        border-bottom: 2px solid #ED7839;
+        border-right: 1px solid #ED7839;
+        backdrop-filter: blur(5px);
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    
+    .btnNavOpen {
+        position: fixed;
+        z-index: 1;
+        display: inline;
+        padding: 0.5rem 1rem;
+        font-size: 3rem;
+        top: 2.5rem;
+        left: 2rem;
+        background:#ed78398e;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        border-bottom: 2px solid #ED7839;
+        border-right: 1px solid #ED7839;
+        backdrop-filter: blur(5px);
+    }
+
+    .btnNavOpen:hover, .btnNavClose:hover {
+        background:#FDF1EB;
+        border: 1px solid #ED7839;
+        color: #ED7839;
+    }
+
+    header {
+        padding-top: 3rem;
+    }
+
+    .headerTxt{
+        font-size: 1.5rem;
+        padding: 1rem 5rem;
+    }
+
+    main {
+        margin-left: 4rem;
+    }
+
+    footer {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 1157px) {
+    header {
+        padding-top: 4rem;
+    }
+
+    .langDropdown {
+        position: relative;
+        bottom: 5rem;
+        left: 20rem;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 1118px) {
+    .sidebar {
+        width: 19%;
+    }
+
+    .btnDropdown {
+        font-size: 1rem;
+    }
+
+    .contentDropdown {
+        font-size: 1rem;
+        width: 7.5rem;
+    }
+
+    .contentDropdown li {
+        padding: 0.6rem 0.6rem;
+    }
+}
+
+@media (max-width: 1105px) {
+    .sidebar {
+        width: 20%;
+    }
+
+    .headerTxt{
+        font-size: 1.4rem;
+    }
+
+    main .mainContainer {
+        grid-template-columns: 2.4fr 1fr;
+    }
+
+    .container div button {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1066px) {
+    .langDropdown {
+        width: 9rem;
+    }
+
+    main {
+        align-items: center;
+    }
+
+    main .mainContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainContainer h2 {
+        padding-bottom: 1rem;
+    }
+
+    .container {
+        display: flex;
+        padding-left: 0;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .container p {
+        font-size: 1.6rem;
+        padding-top: 0;
+    }
+
+    .videoContainer {
+        height: 60rem;
+        flex-direction: column-reverse;
+    }
+
+    .video {
+        height: 39rem;
+        text-align: center;
+    }
+
+    .video p {
+        text-align: left;
+        width: 60%;
+        margin-left: 3%;
+    }
+
+    .videoLegend {
+        text-align: left;
+        margin-left: 12%;
+        width: 70%;
+    }
+
+    .videoLegend .videoName {
+        margin-left: 3rem;
+        font-size: 2.7rem;
+    }
+
+    .videoLegend .videoP2 {
+        margin-left: 6%;
+    }
+
+    .details {
+        width: 100%;
+        height: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    .detailsTxt {
+        max-height: 12rem;
+    }
+}
+
+@media (max-width: 1007px) {
+    .sidebar {
+        width: 22%;
+    }
+}
+
+@media (max-width: 940px) {
+    .sidebar {
+        width: 24%;
+    }
+
+    .langDropdown {
+        width: 12rem;
+    }
+}
+
+@media (max-width: 851px) {
+    .sidebar {
+        width: 28%;
+    }
+
+    header {
+        flex-direction: column-reverse;
+    }
+
+    .login {
+        position: absolute;
+        right: 2rem;
+        top: 3rem;
+    }
+
+    .imgNotif {
+        left: 19rem;
+    }
+
+    .langDropdown {
+        top: -1rem;
+        left: 10rem;
+    }
+
+    main {
+        margin-left: 0;
+        align-items: center;
+    }
+}
+
+@media (max-width: 740px) {
+    .sidebar {
+        width: 30%;
+    }
+
+    .videoContainer {
+        align-items: center;
+        height: 51rem;
+    }
+
+    .video {
+        height: 29rem;
+    }
+
+    .video .videoP1 {
+        font-size: 1.5rem;
+    }
+
+    .video video {
+        width: 80%;
+    }
+
+    .videoLegend {
+        bottom: 14rem;
+        left: 1rem;
+    }
+
+    .videoLegend img {
+        width: 15%;
+
+    }
+
+    .videoLegend .videoName {
+        font-size: 2rem;
+        left: 5rem;
+    }
+
+    .videoLegend .videoP2 {
+        font-size: 1.2rem;
+        left: 5rem;
+    }
+
+    .details {
+        width: 90%;
+    }
+}
+
+@media (max-width: 710px) {
+    .sidebar {
+        width: 40%;
+    }
+
+    header {
+        padding-left: 0;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+
+    .langDropdown {
+        left: 7rem;
+    }
+
+    .mainContainer h2 {
+        text-align: justify;
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 1.5rem;
+    }
+
+    .videoContainer {
+        align-items: center;
+        height: 51rem;
+    }
+
+    .video .videoP1 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+    }
+
+    .videoLegend {
+        bottom: 14rem;
+        left: 1rem;
+    }
+
+    .videoLegend img {
+        width: 15%;
+    }
+
+    .videoLegend .videoName {
+        font-size: 2rem;
+        left: 4.5rem;
+        bottom: 3rem;
+    }
+
+    .videoLegend .videoP2 {
+        bottom: 1rem;
+    }
+
+    .galoaTxt {
+        font-size: 1.1rem;
+    }
+}
+
+
+
