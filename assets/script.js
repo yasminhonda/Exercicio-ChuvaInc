@@ -12,6 +12,19 @@ function verMais() {
 
 }
 
+function criarTopico() {
+    let discussoes = document.querySelector('#discussoes')
+
+    let div = document.createElement('div')
+
+    div.setAttribute('class', 'addTopico')
+        
+    div.innerHTML = '<p class="p1">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p><label class="assunto" for="assunto">Assunto</label><input type="text" id="assunto" class="inputAssunto" placeholder="Defina um tópico sucinto para notificar os autores..."></input><label for="txtarea" class="conteudo">Conteúdo</label><textarea class="txtConteudo" id="txtarea"></textarea><div class="divPuglin"><div class="puglins"><i class="fas fa-bold"></i><i class="fas fa-italic"></i></div><button class="enviar" onclick="enviar()">Enviar</button></div><hr class="hr2">'
+
+    let parentDiv = discussoes.parentNode
+    parentDiv.replaceChild(div, discussoes)
+}
+
 function maisRespostas() {
     let dots = document.querySelector('#dots')
     let txt = document.querySelector('#txt')

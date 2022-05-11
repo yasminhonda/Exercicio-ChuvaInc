@@ -375,6 +375,90 @@ main .mainContainer {
     font-size: 1.5rem;
 }
 
+.addTopico {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.p1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--black-text);
+}
+
+.assunto, .conteudo {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--orange-solid);
+    cursor: pointer;
+}
+
+.inputAssunto {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-left: 2.3rem;
+    color: #4D4D4D;
+    margin-bottom: 1rem;
+    height: 3.9rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.txtConteudo {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 0 0;
+    height: 8.2rem;
+    resize: none;
+}
+
+.hr2 {
+    margin-top: 1rem;
+    border: 1px solid #E7E7E7;
+}
+
+.divPuglin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.puglins {
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 0 3px;
+    background: #EAF1F2;
+    width: 100%;
+    cursor: default;
+}
+
+.puglins i {
+    margin-left: 3rem;
+    cursor: pointer;
+    padding: 1.37rem;
+}
+
+.puglins i:hover {
+    background: #dde6e7;
+}
+
+.enviar {
+    width: 20%;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    border: none;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    padding: 1rem;
+    border-radius: 0 0 3px 0;
+    cursor: pointer;
+}
+
 .comentarios {
     font-family: 'Quicksand', sans-serif;
     border: 1px solid #E7E7E7;
@@ -473,7 +557,6 @@ main .mainContainer {
     border: 1px solid #E7E7E7;
     padding: 1.5rem;
 }
-
 
 footer {
     margin-left: 25rem;
