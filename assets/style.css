@@ -233,10 +233,43 @@ main .mainContainer {
     justify-content: space-between;
 }
 
-.video {
-    background-color: #333333;
+.video video {
     width: 80rem;
-    height: 45rem;
+    cursor: pointer;
+}
+
+.video p {
+    position: absolute;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    margin: 3.5rem 1.7rem 0 3.2rem;
+    width: 55%;
+    line-height: 2.5rem;
+    display: none;
+}
+
+.videoLegend {
+    display: flex;
+    position: relative;
+    bottom: 17rem;
+    left: 3rem;
+}
+
+.videoLegend .videoName {
+    position: absolute;
+    bottom: 4.5rem;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 3.4rem;
+}
+
+.videoLegend p {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 2.0rem;
+    bottom: 1.5rem;
 }
 
 .details {
