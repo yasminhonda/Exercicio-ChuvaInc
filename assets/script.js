@@ -34,6 +34,10 @@ function enviar() {
 
     let parentDiv2 = div.parentNode
     parentDiv2.replaceChild(div2, div)
+
+    let btnCriarNovoTopico = document.querySelector('.btnCriarNovoTopico')
+
+    btnCriarNovoTopico.addEventListener('click', () => {parentDiv2.replaceChild(div, div2)})
 }
 
 function maisRespostas() {
