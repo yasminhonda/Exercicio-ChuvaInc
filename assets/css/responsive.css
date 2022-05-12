@@ -164,6 +164,11 @@
 
     .headerTxt{
         font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .langDropdown {
+        width: 12rem;
     }
 
     main .mainContainer {
@@ -176,8 +181,9 @@
 }
 
 @media (max-width: 1066px) {
-    .langDropdown {
-        width: 9rem;
+    .headerTxt {
+        padding: 0;
+        margin-left: 5rem;
     }
 
     main {
@@ -247,29 +253,36 @@
     }
 }
 
+@media (max-width: 1057px) {
+    .headerTxt {
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
 @media (max-width: 1007px) {
     .sidebar {
         width: 22%;
     }
-}
 
-@media (max-width: 940px) {
-    .sidebar {
-        width: 24%;
+    .headerTxt {
+        font-size: 1.2rem;
     }
 
     .langDropdown {
-        width: 12rem;
+        width: 13rem;
     }
 }
 
-@media (max-width: 851px) {
-    .sidebar {
-        width: 28%;
-    }
-
+@media (max-width: 945px) {
     header {
         flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .headerTxt {
+        font-size: 1.5rem;
+        padding-left: 1rem;
     }
 
     .login {
@@ -287,6 +300,13 @@
         left: 10rem;
     }
 
+}
+
+@media (max-width: 851px) {
+    .sidebar {
+        width: 28%;
+    }
+
     main {
         margin-left: 0;
         align-items: center;
@@ -294,8 +314,8 @@
 }
 
 @media (max-width: 740px) {
-    .sidebar {
-        width: 30%;
+    .headerTxt {
+        font-size: 1.2rem;
     }
 
     .videoContainer {
@@ -345,14 +365,6 @@
         width: 40%;
     }
 
-    header {
-        padding-left: 0;
-    }
-
-    header h2 {
-        font-size: 2rem;
-    }
-
     .langDropdown {
         left: 7rem;
     }
@@ -398,6 +410,90 @@
 
     .galoaTxt {
         font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 620px) {
+    header {
+        padding: 1rem;
+    }
+
+    .headerTxt {
+        margin-left: auto;
+        font-size: 1rem;
+        padding-top: 4rem;
+    }
+
+    .headerTxt p {
+        font-size: 1.2rem;
+    }
+
+    .langDropdown {
+        top: 2rem;
+        left: 2rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .headerTxt {
+        font-size: 0.9rem;
+    }
+
+    .headerTxt p {
+        font-size: 1rem;
+    }
+
+    .langDropdown {
+        left: -3rem;
+    }
+}
+
+@media (max-width: 455px) {
+    .login div p:first-child {
+        font-size: 1.2rem;
+    }
+
+    .login div p:last-child {
+        font-size: 1rem;
+    }
+
+    .login img:last-child {
+        left: 16.5rem;
+    }
+    
+}
+
+@media (max-width: 356px) {
+    .login {
+        margin-top: 1rem;
+    }
+
+    .login div p:first-child {
+        font-size: 1rem;
+    }
+
+    .login div p:last-child {
+        font-size: 0.9rem;
+    }
+
+    .login img:last-child {
+        left: 15rem;
+    }
+    
+    .langDropdown {
+        top: 0rem;
+        left: 10rem;
+        width: 6rem;
+    }
+
+    .btnDropdown {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .contentDropdown {
+        font-size: 0.9rem;
+        width: 6.5rem;
     }
 }
 
