@@ -121,7 +121,7 @@
     }
 
     footer {
-        margin-left: 5rem;
+        margin-left: 1rem;
     }
 }
 
@@ -435,6 +435,10 @@
         height: 57%;
     }
 
+    .galoaTxt {
+        font-size: 0.9rem;
+    }
+
 }
 
 @media (max-width: 520px) {
@@ -542,6 +546,10 @@
 
     .video {
         height: 50%;
+    }
+
+    .galoaTxt {
+        font-size: 0.7rem;
     }
 }
 
